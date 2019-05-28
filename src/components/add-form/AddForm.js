@@ -38,7 +38,7 @@ export default class AddForm extends Component {
         <button>Add</button>
         <button type="button" onClick={() => this.setEditing(false)}>
           Cancel
-                </button>
+        </button>
       </form>
     );
   }

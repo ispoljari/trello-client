@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './add-form.css';
+import './addform.css';
 
 export default class AddForm extends Component {
   state = {
@@ -27,7 +27,7 @@ export default class AddForm extends Component {
       return (
         <div className="add-button"
           onClick={() => this.setEditing(true)}>
-          <a href="#">Add a {this.props.type}...</a>
+          <a href="#1">Add a {this.props.type}...</a>
         </div>
       );
     }

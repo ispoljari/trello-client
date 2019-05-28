@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-import { API_BASE_URL } from '../config';
+import { API_BASE_URL } from '../../config';
 import { List, AddForm } from '../';
 
 import './board.css';
